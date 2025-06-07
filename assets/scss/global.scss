@@ -1,0 +1,230 @@
+@use "components/index";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+}
+
+body {
+  background-color: variable.$bg-color;
+  color: variable.$text-color;
+}
+
+.portfolio-app {
+  @include mixins.flex(column);
+  min-height: 100vh;
+}
+
+.top-menu {
+  @include mixins.fixed(0, 0, auto, 0);
+  height: variable.$menu-height;
+  background-color: variable.$primary-color;
+  @include mixins.flex(row, flex-start, center);
+  padding: 0 variable.$spacing-md;
+  z-index: 100;
+
+  nav {
+    @include mixins.flex;
+    gap: variable.$spacing-md;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+    font-weight: variable.$font-weight-medium;
+    @include mixins.transition(color);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.content-container {
+  @include mixins.flex;
+  margin-top: variable.$menu-height;
+  height: calc(100vh - variable.$menu-height);
+  overflow: hidden;
+}
+
+.directory {
+  width: variable.$sidebar-width;
+  max-width: variable.$sidebar-width;
+  padding: variable.$spacing-lg variable.$spacing-md;
+  background-color: variable.$white;
+  overflow-y: auto;
+  border-right: 1px solid variable.$light-gray;
+  height: 100%;
+
+  .category {
+    margin-bottom: variable.$spacing-xl;
+
+    h2 {
+      font-size: variable.$font-size-lg;
+      margin-bottom: variable.$spacing-md;
+      font-weight: variable.$font-weight-bold;
+
+      a {
+        color: variable.$primary-color;
+        text-decoration: none;
+        @include mixins.transition(color);
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: variable.$spacing-sm;
+      cursor: pointer;
+      @include mixins.transition(color);
+      font-size: variable.$font-size-base;
+
+      &:hover {
+        color: variable.$primary-color;
+      }
+
+      &.active {
+        color: variable.$primary-color;
+        font-weight: variable.$font-weight-medium;
+      }
+    }
+  }
+}
+
+.content-area {
+  flex: 1;
+  padding: variable.$spacing-xl;
+  overflow-y: auto;
+  background-color: variable.$medium-gray;
+  height: 100%;
+}
+
+.project-content {
+  h1 {
+    font-size: variable.$font-size-xxl;
+    margin-bottom: variable.$spacing-md;
+    color: variable.$text-color;
+  }
+}
+
+.project-description {
+  max-width: 800px;
+  line-height: 1.6;
+  margin-bottom: variable.$spacing-lg;
+
+  p {
+    margin-bottom: variable.$spacing-md;
+  }
+}
+
+.project-image {
+  max-width: 100%;
+  margin-top: variable.$spacing-md;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+}
+
+.welcome-message {
+  text-align: center;
+  padding: 100px variable.$spacing-md;
+
+  h1 {
+    font-size: variable.$font-size-xxl;
+    margin-bottom: variable.$spacing-md;
+  }
+}
+
+.category-page {
+  h1 {
+    font-size: variable.$font-size-xxl;
+    margin-bottom: variable.$spacing-lg;
+  }
+}
+
+.projects-grid {
+  @include mixins.grid(
+    repeat(auto-fill, minmax(300px, 1fr)),
+    variable.$spacing-lg
+  );
+
+  .project-card {
+    background-color: variable.$white;
+    border-radius: 8px;
+    padding: variable.$spacing-md;
+    text-decoration: none;
+    color: variable.$text-color;
+    @include mixins.transition(transform, box-shadow);
+
+    &:hover {
+      transform: translateY(-5px);
+      @include mixins.shadow(medium);
+    }
+
+    .project-number {
+      color: variable.$primary-color;
+      font-weight: variable.$font-weight-bold;
+      margin-bottom: variable.$spacing-xs;
+    }
+
+    h2 {
+      font-size: variable.$font-size-lg;
+      margin-bottom: variable.$spacing-md;
+    }
+
+    .project-thumbnail {
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
+@include mixins.respond-to(medium) {
+  .content-container {
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .directory {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    border-right: none;
+    border-bottom: 1px solid variable.$light-gray;
+    overflow-y: auto;
+  }
+
+  .content-area {
+    padding: variable.$spacing-md;
+    height: calc(100vh - variable.$menu-height - 300px);
+    overflow-y: auto;
+  }
+
+  .project-content {
+    h1 {
+      font-size: variable.$font-size-xl;
+    }
+  }
+
+  .projects-grid {
+    @include mixins.grid(1fr, variable.$spacing-md);
+  }
+}

@@ -1,0 +1,51 @@
+@use "../mixins" as mixins;
+@use "../variables" as variable;
+
+.project-content {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: variable.$font-size-xxl;
+    margin-bottom: variable.$spacing-md;
+    color: variable.$text-color;
+  }
+}
+
+.project-description {
+  max-width: 800px;
+  line-height: 1.6;
+  margin-bottom: variable.$spacing-lg;
+
+  p {
+    margin-bottom: variable.$spacing-md;
+  }
+}
+
+.project-image {
+  max-width: 100%;
+  margin-top: variable.$spacing-md;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    @include mixins.transition(transform);
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+}
+
+@include mixins.respond-to(mobile) {
+  .project-content {
+    h1 {
+      font-size: variable.$font-size-xl;
+    }
+  }
+
+  .project-description {
+    font-size: variable.$font-size-sm;
+  }
+}

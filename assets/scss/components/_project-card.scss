@@ -1,0 +1,55 @@
+@use "../mixins" as mixins;
+@use "../variables" as variable;
+
+.project-card {
+  background-color: variable.$white;
+  border-radius: 8px;
+  padding: variable.$spacing-md;
+  text-decoration: none;
+  color: variable.$text-color;
+  @include mixins.transition(transform, box-shadow);
+  @include mixins.flex(column);
+  height: 100%;
+
+  &:hover {
+    transform: translateY(-5px);
+    @include mixins.shadow(medium);
+  }
+
+  .project-number {
+    color: variable.$primary-color;
+    font-weight: variable.$font-weight-bold;
+    margin-bottom: variable.$spacing-xs;
+  }
+
+  h2 {
+    font-size: variable.$font-size-lg;
+    margin-bottom: variable.$spacing-md;
+  }
+
+  .project-thumbnail {
+    margin-top: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      @include mixins.transition(transform);
+
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+  }
+}
+
+.projects-grid {
+  @include mixins.grid(
+    repeat(auto-fill, minmax(300px, 1fr)),
+    variable.$spacing-lg
+  );
+
+  @include mixins.respond-to(mobile) {
+    @include mixins.grid(1fr, variable.$spacing-md);
+  }
+}
