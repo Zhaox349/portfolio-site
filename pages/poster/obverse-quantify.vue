@@ -83,7 +83,7 @@
       <p>Observe & Quantify main poster with 9 risograph posters</p>
     </div>
 
-    <div class="project-image-row with-gap">
+    <div class="project-image-row with-gap-3">
       <div class="image-container">
         <img src="/poster/obverse-quantify/riso1.jpg" alt="Risograph Print 1" />
       </div>
@@ -162,6 +162,10 @@
   &.with-gap {
     gap: variable.$spacing-md;
     grid-template-columns: repeat(2, 1fr);
+    &-3 {
+      gap: variable.$spacing-md;
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   &.no-gap {

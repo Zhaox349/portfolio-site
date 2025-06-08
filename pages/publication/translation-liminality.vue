@@ -172,9 +172,6 @@
 </script>
 
 <style lang="scss" scoped>
-// @use "@/assets/scss/variable" as variable;
-// @use "@/assets/scss/mixins" as mixins;
-
 .project-content {
   padding: variable.$spacing-md;
   max-width: 1200px;

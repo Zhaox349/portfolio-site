@@ -21,7 +21,7 @@
 
     <div class="project-description">
       <p>
-        <span class="scroll-text">To scroll</span> is to move forward, navigate,
+        To<span class="scroll-text"> scroll</span> is to move forward, navigate,
         and traverse a space. The 2025 Boston University Graphic Design MFA
         Exhibition, <span class="scroll-text">Scroll(s)</span>, explores how we
         engage with information, craft, and form. The exhibition's title is

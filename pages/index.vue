@@ -8,8 +8,10 @@
         <img src="/about-me/me.jpg" alt="Chichi Zhao" />
 
         <div class="download-list">
-          <a>Download CV</a>
-          <a>Download Portfolio</a>
+          <a href="/about-me/Xuru_Resume_June.pdf" download>Download CV</a>
+          <a href="/about-me/Xuru_Portfolio_Compress.pdf" download
+            >Download Portfolio</a
+          >
         </div>
       </div>
       <div class="about-text">
@@ -107,6 +109,7 @@
   .about-content {
     @include mixins.flex(row, flex-start, flex-start);
     gap: variable.$spacing-xl;
+    margin-top: 20px;
 
     .about-image {
       flex: 0 0 40%;
