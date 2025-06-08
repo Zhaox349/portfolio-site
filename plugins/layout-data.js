@@ -138,7 +138,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         {
           id: "scroll",
           number: "16",
-          title: "Scroll",
+          title: "SCROLL(S)",
           description: `<p>A hybrid typeface combining elements of Chinese calligraphy with Latin letterforms, exploring cultural fusion through typography.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
         },

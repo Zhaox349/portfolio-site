@@ -6,7 +6,7 @@
         <a href="mailto:xuruz111@gmail.com">Email</a>
         <a href="https://instagram.com/chiiiz_art" target="_blank">Instagram</a>
         <a href="https://linkedin.com/in/xuruzhao" target="_blank">LinkedIn</a>
-        <NuxtLink to="/">about me</NuxtLink>
+        <NuxtLink to="/">About</NuxtLink>
       </nav>
     </header>
 
@@ -25,7 +25,10 @@
             <li
               v-for="(project, projectIndex) in category.projects"
               :key="projectIndex"
-              :class="{ active: isActiveProject(category.id, project.id) }"
+              :class="{
+                active: isActiveProject(category.id, project.id),
+                project,
+              }"
               @click="navigateToProject(category.id, project.id)"
             >
               {{ project.number }}. {{ project.title }}
@@ -63,9 +66,10 @@ const navigateToProject = (categoryId, projectId) => {
 
 // 检查当前路由是否匹配项目
 const isActiveProject = (categoryId, projectId) => {
-  return (
-    route.params.category === categoryId && route.params.project === projectId
-  );
+  const path = route.path.split("/").slice(1, 3);
+  if (path[0] === categoryId && path[1] === projectId) {
+    return true;
+  }
 };
 </script>
 
@@ -76,5 +80,15 @@ const isActiveProject = (categoryId, projectId) => {
 // 如果需要覆盖或添加特定样式，可以在这里添加
 .portfolio-app {
   // 特定于此布局的样式
+  .content-container {
+    .directory {
+      .category h2 {
+        font-size: 28px;
+      }
+      .project {
+        font-size: 20px;
+      }
+    }
+  }
 }
 </style>
