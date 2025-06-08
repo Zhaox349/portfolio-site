@@ -128,7 +128,7 @@
   video {
     width: 100%;
     height: auto;
-    border-radius: 4px;
+
     @include mixins.shadow(light);
     @include mixins.transition(transform, filter);
 

@@ -4,9 +4,11 @@
 
     <div class="project-meta">
       <div class="meta-item">
+        <h3>Type</h3>
         <p>Branding</p>
       </div>
       <div class="meta-item">
+        <h3>Date</h3>
         <p>Jan. 2023</p>
       </div>
     </div>
@@ -123,7 +125,7 @@
   img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
+
     @include mixins.shadow(light);
     @include mixins.transition(box-shadow, transform);
 
@@ -150,7 +152,7 @@
     img {
       width: 100%;
       height: auto;
-      border-radius: 4px;
+
       @include mixins.shadow(light);
       @include mixins.transition(box-shadow, transform);
 

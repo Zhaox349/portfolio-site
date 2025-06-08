@@ -1,6 +1,6 @@
 <template>
   <div class="project-content">
-    <h1>Iteration</h1>
+    <h1>Reimagining Psychedelia</h1>
 
     <div class="project-meta">
       <div class="meta-item">
@@ -67,13 +67,13 @@
 
     <div class="project-description">
       <p>
-        This interactive website presents 50 iterations in three sections. The
-        first is a gradient drawing board where users can draw colorful paths
-        with their cursor, accompanied by a brief project introduction. The
-        second section is a kaleidoscope that merges all 50 posters into a
-        single visual. The final section is a dynamic archive wall, where each
-        poster appears in a random layout, and users can click and drag to
-        rearrange them freely.
+        This interactive website presents Reimagining Psychedelia in three
+        sections. The first is a gradient drawing board where users can draw
+        colorful paths with their cursor, accompanied by a brief project
+        introduction. The second section is a kaleidoscope that merges all 50
+        posters into a single visual. The final section is a dynamic archive
+        wall, where each poster appears in a random layout, and users can click
+        and drag to rearrange them freely.
       </p>
       <p>
         <a
@@ -151,7 +151,7 @@
 .project-image,
 .project-video {
   margin: variable.$spacing-lg 0;
-  border-radius: variable.$border-radius-lg;
+
   overflow: hidden;
   @include mixins.shadow;
 

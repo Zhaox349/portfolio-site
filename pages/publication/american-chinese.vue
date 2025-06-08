@@ -4,10 +4,13 @@
 
     <div class="project-meta">
       <div class="meta-item">
-        <p>Publication, Poster</p>
+        <h3>Type</h3>
+        <p>Publication</p>
+        <p>Poster</p>
       </div>
       <div class="meta-item">
-        <p>Apr. 2023, Apr 2025</p>
+        <h3>Date</h3>
+        <p>Apr. 2023 - Apr. 2025</p>
       </div>
     </div>
 
@@ -41,7 +44,7 @@
       </div>
     </div>
 
-    <div class="project-image-row">
+    <div class="project-image-row" style="margin-bottom: 20px">
       <div class="image-container">
         <img
           src="/publication/american-chinese/Restaurant3.jpg"
@@ -192,9 +195,6 @@
 </script>
 
 <style lang="scss" scoped>
-// @use "@/assets/scss/variable" as variable;
-// @use "@/assets/scss/mixins" as mixins;
-
 .project-content {
   padding: variable.$spacing-md;
   max-width: 1200px;
@@ -235,7 +235,7 @@
   img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
+
     @include mixins.shadow(light);
     @include mixins.transition(box-shadow, transform);
 
@@ -256,13 +256,14 @@
 
   &.intro-section {
     display: flex;
-    gap: variable.$spacing-lg;
     align-items: center;
+    gap: 20px;
 
     .image-container {
       flex: 1;
       img {
         width: 100%;
+        height: 100%;
       }
     }
 
@@ -291,16 +292,17 @@
 
 .project-image-row {
   display: flex;
-  gap: variable.$spacing-md;
-  margin: variable.$spacing-lg 0;
+  gap: 0;
 
   .image-container {
     flex: 1;
+    line-height: 0;
 
     img {
       width: 100%;
       height: auto;
-      border-radius: 4px;
+      display: block;
+
       @include mixins.shadow(light);
       @include mixins.transition(box-shadow, transform);
 
@@ -318,8 +320,6 @@
   }
 
   &.no-gap {
-    gap: 0;
-
     .image-container img {
       border-radius: 0;
     }

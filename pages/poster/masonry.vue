@@ -14,10 +14,7 @@
     </div>
 
     <div class="project-image full-width">
-      <img
-        src="/poster/masonry/Masonry1.jpg"
-        alt="Masonry Main Image"
-      />
+      <img src="/poster/masonry/Masonry1.jpg" alt="Masonry Main Image" />
     </div>
 
     <div class="project-description">
@@ -25,41 +22,29 @@
         Masonry is a typographic experiment shaped by systems, grids, and rules.
         The project begins with a grid inspired by traditional Chinese
         architecture, using its modular structure as a base to construct
-        letterforms. Influenced by television glitches, visual errors, PCB circuit
-        boards, and gaming aesthetics, the poster uses bold, high-contrast colors
-        to create a visually striking experience. Letters and words are embedded
-        within the structure—intentionally obscured to invite viewer interaction.
-        Upon closer inspection and careful decoding, hidden messages emerge,
-        revealing terms like Boston University, dome, corridor, and labyrinth.
-        The work challenges how meaning is formed, concealed, and discovered
-        within systems of visual language.
+        letterforms. Influenced by television glitches, visual errors, PCB
+        circuit boards, and gaming aesthetics, the poster uses bold,
+        high-contrast colors to create a visually striking experience. Letters
+        and words are embedded within the structure—intentionally obscured to
+        invite viewer interaction. Upon closer inspection and careful decoding,
+        hidden messages emerge, revealing terms like Boston University, dome,
+        corridor, and labyrinth. The work challenges how meaning is formed,
+        concealed, and discovered within systems of visual language.
       </p>
     </div>
 
     <div class="project-image-grid">
       <div class="image-container">
-        <img
-          src="/poster/masonry/Poster0.jpg"
-          alt="Masonry Poster 0"
-        />
+        <img src="/poster/masonry/Poster0.jpg" alt="Masonry Poster 0" />
       </div>
       <div class="image-container">
-        <img
-          src="/poster/masonry/Poster1.jpg"
-          alt="Masonry Poster 1"
-        />
+        <img src="/poster/masonry/Poster1.jpg" alt="Masonry Poster 1" />
       </div>
       <div class="image-container">
-        <img
-          src="/poster/masonry/Poster2.jpg"
-          alt="Masonry Poster 2"
-        />
+        <img src="/poster/masonry/Poster2.jpg" alt="Masonry Poster 2" />
       </div>
       <div class="image-container">
-        <img
-          src="/poster/masonry/Poster3.jpg"
-          alt="Masonry Poster 3"
-        />
+        <img src="/poster/masonry/Poster3.jpg" alt="Masonry Poster 3" />
       </div>
     </div>
   </div>
@@ -106,7 +91,7 @@
 
 .project-image {
   margin: variable.$spacing-lg 0;
-  border-radius: variable.$border-radius-lg;
+
   overflow: hidden;
   @include mixins.shadow;
 
@@ -129,7 +114,6 @@
   margin: variable.$spacing-lg 0;
 
   .image-container {
-    border-radius: variable.$border-radius-lg;
     overflow: hidden;
     @include mixins.shadow;
 

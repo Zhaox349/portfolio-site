@@ -4,9 +4,11 @@
 
     <div class="project-meta">
       <div class="meta-item">
+        <h3>Type</h3>
         <p>Publication</p>
       </div>
       <div class="meta-item">
+        <h3>Date</h3>
         <p>Dec. 2023</p>
       </div>
     </div>
@@ -18,12 +20,12 @@
           alt="Wayfinding Design Manual"
         />
       </div>
-      <div class="image-container">
+      <!-- <div class="image-container">
         <img
           src="/publication/wayfinding-design-manual/wayfinding2.jpg"
           alt="Wayfinding Design Manual"
         />
-      </div>
+      </div> -->
     </div>
 
     <div class="project-description">
@@ -150,7 +152,7 @@
   img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
+
     @include mixins.shadow(light);
     @include mixins.transition(box-shadow, transform);
 
@@ -177,7 +179,7 @@
     img {
       width: 100%;
       height: auto;
-      border-radius: 4px;
+
       @include mixins.shadow(light);
       @include mixins.transition(box-shadow, transform);
 
@@ -208,7 +210,9 @@
   margin: variable.$spacing-lg 0;
 
   &.four-columns {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2 1fr);
+    gap: 0;
+    line-height: 0;
 
     @include mixins.respond-to(large) {
       grid-template-columns: repeat(2, 1fr);

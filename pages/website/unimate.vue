@@ -148,11 +148,8 @@
     </div>
 
     <div class="project-image full-width video-container">
-      <video autoplay loop muted playsinline>
-        <source
-          src="/website/unimate/UniMate_Demo.mov"
-          type="video/quicktime"
-        />
+      <video autoplay loop muted playsinline controls>
+        <source src="/website/unimate/UniMate_Demo.mov" />
       </video>
     </div>
   </div>
@@ -241,7 +238,7 @@
   video {
     width: 100%;
     height: auto;
-    border-radius: 4px;
+
     @include mixins.shadow(light);
     @include mixins.transition(transform, filter);
 

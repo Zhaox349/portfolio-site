@@ -101,7 +101,7 @@
 
 .project-image {
   margin: variable.$spacing-lg 0;
-  border-radius: variable.$border-radius-lg;
+
   overflow: hidden;
   @include mixins.shadow;
 
@@ -124,7 +124,6 @@
   margin: variable.$spacing-lg 0;
 
   .image-container {
-    border-radius: variable.$border-radius-lg;
     overflow: hidden;
     @include mixins.shadow;
 

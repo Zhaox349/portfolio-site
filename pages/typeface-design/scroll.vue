@@ -254,7 +254,6 @@
 
   img,
   video {
-    border-radius: variable.$border-radius-lg;
     @include mixins.shadow(light);
     @include mixins.transition(box-shadow);
 
@@ -276,7 +275,7 @@
       img {
         width: 100%;
         height: auto;
-        border-radius: variable.$border-radius-lg;
+
         @include mixins.shadow(light);
         @include mixins.transition(box-shadow);
 

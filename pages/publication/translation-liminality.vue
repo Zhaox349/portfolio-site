@@ -1,12 +1,15 @@
 <template>
   <div class="project-content">
-    <h1>Translation & Liminality</h1>
+    <h1>Liminality</h1>
 
     <div class="project-meta">
       <div class="meta-item">
-        <p>Publication, Poster</p>
+        <h3>Type</h3>
+        <p>Publication</p>
+        <p>Poster</p>
       </div>
       <div class="meta-item">
+        <h3>Date</h3>
         <p>Apr. 2024</p>
       </div>
     </div>
@@ -15,13 +18,13 @@
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality1.jpg"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality2.jpg"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
     </div>
@@ -55,25 +58,25 @@
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality3.jpg"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality4.jpg"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality5.jpg"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality6.jpg"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
     </div>
@@ -96,7 +99,7 @@
     <div class="project-image full-width">
       <img
         src="/publication/translation-liminality/Liminality7.jpg"
-        alt="Translation & Liminality"
+        alt="Liminality"
       />
     </div>
 
@@ -122,13 +125,13 @@
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality8.JPG"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality9.jpg"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
     </div>
@@ -137,13 +140,13 @@
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality10.jpg"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality11.jpg"
-          alt="Translation & Liminality"
+          alt="Liminality"
         />
       </div>
     </div>
@@ -151,14 +154,14 @@
     <div class="project-image full-width">
       <img
         src="/publication/translation-liminality/Liminality12.jpg"
-        alt="Translation & Liminality"
+        alt="Liminality"
       />
     </div>
 
     <div class="project-image full-width">
       <img
         src="/publication/translation-liminality/Liminality13.jpg"
-        alt="Translation & Liminality"
+        alt="Liminality"
       />
     </div>
   </div>
@@ -212,7 +215,7 @@
   img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
+
     @include mixins.shadow(light);
     @include mixins.transition(box-shadow, transform);
 
@@ -239,7 +242,7 @@
     img {
       width: 100%;
       height: auto;
-      border-radius: 4px;
+
       @include mixins.shadow(light);
       @include mixins.transition(box-shadow, transform);
 
@@ -273,7 +276,7 @@
     img {
       width: 100%;
       height: auto;
-      border-radius: 4px;
+
       @include mixins.shadow(light);
       @include mixins.transition(box-shadow, transform);
 

@@ -16,7 +16,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         {
           id: "translation-liminality",
           number: "02",
-          title: "Translation & Liminality",
+          title: "Liminality",
           description: `<p>An exploration of the space between languages and cultures through design and typography.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
         },
@@ -56,14 +56,14 @@ export default defineNuxtPlugin((nuxtApp) => {
       projects: [
         {
           id: "museum-craft-design",
-          number: "01",
+          number: "07",
           title: "Museum of Craft & Design",
           description: `<p>A comprehensive brand identity for a museum dedicated to craft and design, celebrating traditional techniques and contemporary applications.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
         },
         {
           id: "si",
-          number: "02",
+          number: "08",
           title: "SI",
           description: `<p>Brand identity for a contemporary design studio focusing on sustainable practices and innovative solutions.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
@@ -76,22 +76,22 @@ export default defineNuxtPlugin((nuxtApp) => {
       projects: [
         {
           id: "extreme-scale",
-          number: "01",
+          number: "09",
           title: "Extreme Scale",
           description: `<p>A website exploring the concept of scale in digital environments, pushing the boundaries of conventional web design.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
         },
         {
           id: "unimate",
-          number: "02",
+          number: "10",
           title: "UniMate",
           description: `<p>A digital platform designed to connect university students for collaborative projects and social activities.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
         },
         {
-          id: "50-iterations",
-          number: "03",
-          title: "50 Iterations",
+          id: "reimagining-psychedelia",
+          number: "11",
+          title: "Reimagining Psychedelia",
           description: `<p>An experimental web project showcasing 50 different design iterations of the same content, exploring versatility in digital design.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
         },
@@ -103,21 +103,21 @@ export default defineNuxtPlugin((nuxtApp) => {
       projects: [
         {
           id: "50-questions",
-          number: "01",
+          number: "12",
           title: "50 Questions",
           description: `<p>A series of typographic posters posing thought-provoking questions about design and society.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
         },
         {
           id: "obverse-quantify",
-          number: "02",
+          number: "13",
           title: "Obverse & Quantify",
           description: `<p>A poster series exploring the relationship between qualitative and quantitative aspects of design.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
         },
         {
           id: "masonry",
-          number: "03",
+          number: "14",
           title: "Masonry",
           description: `<p>A collection of architectural posters examining the structural and aesthetic qualities of masonry in contemporary buildings.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
@@ -130,14 +130,14 @@ export default defineNuxtPlugin((nuxtApp) => {
       projects: [
         {
           id: "resilience",
-          number: "01",
+          number: "15",
           title: "Resilience",
           description: `<p>A typeface designed to maintain legibility across various media and environmental conditions, emphasizing adaptability and clarity.</p>`,
           image: "/placeholder.jpg?height=500&width=800",
         },
         {
           id: "scroll",
-          number: "02",
+          number: "16",
           title: "Scroll",
           description: `<p>A hybrid typeface combining elements of Chinese calligraphy with Latin letterforms, exploring cultural fusion through typography.</p>`,
           image: "/placeholder.jpg?height=500&width=800",

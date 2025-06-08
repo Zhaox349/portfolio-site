@@ -3,10 +3,10 @@
     <!-- Fixed Top Menu -->
     <header class="top-menu">
       <nav>
-        <a href="mailto:contact@example.com">Email</a>
+        <a href="mailto:xuruz111@gmail.com">Email</a>
         <a href="https://instagram.com/chiiiz_art" target="_blank">Instagram</a>
         <a href="https://linkedin.com/in/xuruzhao" target="_blank">LinkedIn</a>
-        <NuxtLink to="/about">about me</NuxtLink>
+        <NuxtLink to="/">about me</NuxtLink>
       </nav>
     </header>
 
@@ -19,14 +19,14 @@
           class="category"
         >
           <h2>
-            <NuxtLink :to="`/${category.id}`">{{ category.title }}</NuxtLink>
+            {{ category.title }}
           </h2>
           <ul>
             <li
               v-for="(project, projectIndex) in category.projects"
               :key="projectIndex"
-              @click="navigateToProject(category.id, project.id)"
               :class="{ active: isActiveProject(category.id, project.id) }"
+              @click="navigateToProject(category.id, project.id)"
             >
               {{ project.number }}. {{ project.title }}
             </li>
