@@ -1,18 +1,10 @@
 <template>
   <div class="project-content">
-    <h1>Reimagining Psychedelia</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Poster Design</p>
-        <p>Web Design</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Oct. 2023</p>
-      </div>
-    </div>
+    <ProjectHeader
+      title="Reimagining Psychedelia"
+      type="Poster Design / Web Design"
+      date="Oct. 2023"
+    />
 
     <div class="project-image full-width">
       <img
@@ -76,12 +68,7 @@
         and drag to rearrange them freely.
       </p>
       <p>
-        <a
-          href="https://zhaox349.github.io/50iterations/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Visit the website here</a
-        >
+        <ProjectJumpButton url="https://zhaox349.github.io/50iterations/" />
       </p>
     </div>
 

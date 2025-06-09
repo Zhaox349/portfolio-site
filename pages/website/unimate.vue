@@ -1,19 +1,10 @@
 <template>
   <div class="project-content">
-    <h1>UniMate</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Web Design</p>
-        <p>UI/UX</p>
-        <p>Branding</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>May 2024 to Present</p>
-      </div>
-    </div>
+    <ProjectHeader
+      title="UniMate"
+      type="Web Design / UI/UX / Branding"
+      date="May 2024 to Present"
+    />
 
     <div class="project-image full-width">
       <img src="/website/unimate/UniMate1.jpg" alt="UniMate Platform" />
@@ -26,10 +17,7 @@
         information about studying abroad.
       </p>
       <p>
-        Visit the website
-        <a href="https://unimate.com.vn/" target="_blank" class="highlight-link"
-          ><strong>here</strong></a
-        >
+        <ProjectJumpButton url="https://unimate.com.vn/" />
       </p>
       <div>
         Team members:

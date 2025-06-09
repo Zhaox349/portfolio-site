@@ -1,18 +1,10 @@
 <template>
   <div class="project-content">
-    <h1>Liminality</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Publication</p>
-        <p>Poster</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Apr. 2024</p>
-      </div>
-    </div>
+    <ProjectHeader
+      title="Liminality"
+      type="Publication / Poster"
+      date="Apr. 2024"
+    />
 
     <div class="project-image-row">
       <div class="image-container">

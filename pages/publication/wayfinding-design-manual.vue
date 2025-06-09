@@ -1,17 +1,10 @@
 <template>
   <div class="project-content">
-    <h1>Wayfinding Design Manual</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Publication</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Dec. 2023</p>
-      </div>
-    </div>
+    <ProjectHeader
+      title="Wayfinding Design Manual"
+      type="Publication"
+      date="Dec. 2023"
+    />
 
     <div class="project-image-row">
       <div class="image-container">

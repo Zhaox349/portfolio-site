@@ -1,18 +1,10 @@
 <template>
   <div class="project-content">
-    <h1>American Chinese (Restaurant)</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Publication</p>
-        <p>Poster</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Apr. 2023 - Apr. 2025</p>
-      </div>
-    </div>
+    <ProjectHeader
+      title="American Chinese (Restaurant)"
+      type="PUBLICATION / POSTER"
+      date="Apr. 2023 - Apr. 2025"
+    />
 
     <div class="project-image full-width">
       <img

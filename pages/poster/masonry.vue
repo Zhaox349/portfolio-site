@@ -1,17 +1,6 @@
 <template>
   <div class="project-content">
-    <h1>Masonry</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Poster Design</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Nov. 2023</p>
-      </div>
-    </div>
+    <ProjectHeader title="Masonry" type="Poster Design" date="Nov. 2023" />
 
     <div class="project-image full-width">
       <img src="/poster/masonry/Masonry1.jpg" alt="Masonry Main Image" />
