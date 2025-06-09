@@ -68,12 +68,7 @@
         and drag to rearrange them freely.
       </p>
       <p>
-        <a
-          href="https://zhaox349.github.io/50iterations/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Visit the website here</a
-        >
+        <ProjectJumpButton url="https://zhaox349.github.io/50iterations/" />
       </p>
     </div>
 

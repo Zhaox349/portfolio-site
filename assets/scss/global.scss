@@ -23,6 +23,7 @@ body {
 
 .project-description {
   max-width: 800px;
+  word-break: break-all;
   line-height: 1.6;
   margin-bottom: variable.$spacing-lg;
 
@@ -88,12 +89,6 @@ body {
 }
 
 @include mixins.respond-to(medium) {
-  .content-area {
-    padding: variable.$spacing-md;
-    height: calc(100vh - variable.$menu-height - 300px);
-    overflow-y: auto;
-  }
-
   .project-content {
     h1 {
       font-size: variable.$font-size-xl;

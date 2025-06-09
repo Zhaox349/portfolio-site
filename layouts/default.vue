@@ -235,6 +235,12 @@ const isActiveProject = (categoryId, projectId) => {
       flex-direction: column;
       height: 100vh;
       overflow: hidden;
+
+      .content-area {
+        padding: variable.$spacing-md;
+        height: calc(100vh - variable.$menu-height - 300px);
+        overflow-y: auto;
+      }
     }
   }
 }
