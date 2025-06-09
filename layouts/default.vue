@@ -9,12 +9,23 @@
         <NuxtLink to="/">About</NuxtLink>
       </nav>
 
-      <div>：）</div>
+      <div class="menu-controls">
+        <div>：）</div>
+        <button class="menu-toggle" @click="isMenuOpen = true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </header>
 
     <div class="content-container">
       <!-- Left Directory -->
-      <aside ref="directoryRef" class="directory">
+      <aside
+        ref="directoryRef"
+        :class="['directory', { 'mobile-menu': isMenuOpen }]"
+      >
+        <button class="close-menu" @click="isMenuOpen = false">&times;</button>
         <div
           v-for="(category, categoryIndex) in portfolioData"
           :key="categoryIndex"
@@ -66,6 +77,7 @@ import { useRoute, useRouter } from "vue-router";
 
 const route = useRoute();
 const router = useRouter();
+const isMenuOpen = ref(false);
 
 // 从插件获取数据
 const { $layoutData } = useNuxtApp();
@@ -76,6 +88,7 @@ const directoryRef = ref(null);
 // 导航函数
 const navigateToProject = (categoryId, projectId, id) => {
   router.push(`/${categoryId}/${projectId}`);
+  isMenuOpen.value = false;
 
   const projectItem = document.getElementById(id);
   console.dir(projectItem);
@@ -110,6 +123,35 @@ const isActiveProject = (categoryId, projectId) => {
       gap: variable.$nav-spacing;
     }
 
+    .menu-controls {
+      @include mixins.flex(row, center, center);
+      gap: variable.$spacing-md;
+    }
+
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 24px;
+      height: 18px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+
+      span {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #000;
+        transition: transform 0.3s ease;
+      }
+
+      @media (max-width: 768px) {
+        display: flex;
+      }
+    }
+
     a {
       color: #000;
       text-decoration: none;
@@ -134,6 +176,41 @@ const isActiveProject = (categoryId, projectId) => {
       border-right: 1px solid variable.$light-gray;
       height: 100%;
 
+      .close-menu {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1000;
+        padding-top: 60px;
+
+        &.mobile-menu {
+          display: block;
+        }
+
+        .close-menu {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          background: none;
+          border: none;
+          font-size: 24px;
+          cursor: pointer;
+          padding: 0;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
       .category {
         margin-bottom: variable.$spacing-xl;
 
@@ -147,7 +224,7 @@ const isActiveProject = (categoryId, projectId) => {
             bottom: -5px;
             left: 0;
             content: " ";
-            height: 2px;
+            height: 1px;
             width: 100%;
             background-color: #000;
           }
@@ -194,12 +271,13 @@ const isActiveProject = (categoryId, projectId) => {
             position: relative;
             font-size: variable.$font-size-xs;
             color: variable.$secondary-color;
+            width: 100%;
             &::after {
               position: absolute;
               bottom: -8px;
               left: 0;
               content: " ";
-              height: 2px;
+              height: 1px;
               width: 100%;
               background-color: #000;
             }
@@ -210,37 +288,9 @@ const isActiveProject = (categoryId, projectId) => {
 
     .content-area {
       flex: 1;
-      padding: variable.$spacing-xl;
+      padding: variable.$spacing-lg;
       overflow-y: auto;
       background-color: variable.$medium-gray;
-      height: 100%;
-    }
-  }
-}
-
-@include mixins.respond-to(medium) {
-  .portfolio-app {
-    .directory {
-      width: 100%;
-      max-width: 100%;
-      height: 300px;
-      min-height: 300px;
-      max-height: 300px;
-      border-right: none;
-      border-bottom: 1px solid variable.$light-gray;
-      overflow-y: auto;
-    }
-
-    .content-container {
-      flex-direction: column;
-      height: 100vh;
-      overflow: hidden;
-
-      .content-area {
-        padding: variable.$spacing-md;
-        height: calc(100vh - variable.$menu-height - 300px);
-        overflow-y: auto;
-      }
     }
   }
 }
