@@ -1,16 +1,6 @@
 <template>
   <div class="project-content">
-    <h1 class="scroll-text">SCROLL(S)</h1>
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Exhibition</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Apr. 2025</p>
-      </div>
-    </div>
+    <ProjectHeader title="SCROLL(S)" type="Exhibition" date="Apr. 2025" />
 
     <div class="project-image full-width">
       <img

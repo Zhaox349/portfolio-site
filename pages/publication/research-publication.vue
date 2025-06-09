@@ -1,17 +1,10 @@
 <template>
   <div class="project-content">
-    <h1>Research & Publication</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Publication</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>May 2024</p>
-      </div>
-    </div>
+    <ProjectHeader
+      title="Research & Publication"
+      type="Publication"
+      date="May. 2024"
+    />
 
     <div class="project-image full-width">
       <img

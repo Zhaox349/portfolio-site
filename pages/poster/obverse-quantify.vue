@@ -1,17 +1,10 @@
 <template>
   <div class="project-content">
-    <h1>Observe & Quantify</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Poster Design</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Feb. 2024</p>
-      </div>
-    </div>
+    <ProjectHeader
+      title="Observe & Quantify"
+      type="Poster Design"
+      date="Feb. 2024"
+    />
 
     <div class="project-image-row no-gap">
       <div class="image-container">

@@ -1,17 +1,10 @@
 <template>
   <div class="project-content">
-    <h1>Museum of Craft & Design</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Branding</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Nov. 2024</p>
-      </div>
-    </div>
+    <ProjectHeader
+      title="Museum of Craft & Design"
+      type="Branding"
+      date="Nov. 2024"
+    />
 
     <div class="project-image full-width">
       <img

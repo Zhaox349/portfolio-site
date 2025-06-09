@@ -1,19 +1,8 @@
 <template>
   <div class="project-content">
-    <h1>50 Questions</h1>
+    <ProjectHeader title="50 Questions" type="Poster Design" date="Nov. 2024" />
 
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Poster Design</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Nov. 2024</p>
-      </div>
-    </div>
-
-    <div class="project-image full-width">
+     <div class="project-image full-width">
       <img
         src="/poster/50-questions/Question1.jpg"
         alt="50 Questions - First Image"

@@ -1,17 +1,10 @@
 <template>
   <div class="project-content">
-    <h1>Extreme Scale</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Interactive Web Design</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Dec. 2024</p>
-      </div>
-    </div>
+    <ProjectHeader
+      title="Extreme Scale"
+      type="Interactive Web Design"
+      date="Dec. 2024"
+    />
 
     <div class="project-image full-width">
       <img src="/website/extreme-scale/Extreme1.jpg" alt="Extreme Scale" />

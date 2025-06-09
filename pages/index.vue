@@ -8,10 +8,14 @@
         <img src="/about-me/me.jpg" alt="Chichi Zhao" />
 
         <div class="download-list">
-          <a href="/about-me/Xuru_Resume_June.pdf" download>Download CV</a>
-          <a href="/about-me/Xuru_Portfolio_Compress.pdf" download
-            >Download Portfolio</a
-          >
+          <ProjectDownloadButton
+            text="Download CV"
+            url="/about-me/Xuru_Resume_June.pdf"
+          />
+          <ProjectDownloadButton
+            text="Download Portfolio"
+            url="/about-me/Xuru_Portfolio_Compress.pdf"
+          />
         </div>
       </div>
       <div class="about-text">
@@ -123,13 +127,7 @@
         margin-top: variable.$spacing-md;
         display: flex;
         flex-direction: column;
-
-        a {
-          margin-bottom: variable.$spacing-sm;
-          text-decoration: underline;
-          cursor: pointer;
-          color: variable.$primary-color;
-        }
+        gap: 10px;
       }
     }
 

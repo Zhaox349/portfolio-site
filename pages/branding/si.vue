@@ -1,17 +1,6 @@
 <template>
   <div class="project-content">
-    <h1>SI</h1>
-
-    <div class="project-meta">
-      <div class="meta-item">
-        <h3>Type</h3>
-        <p>Branding</p>
-      </div>
-      <div class="meta-item">
-        <h3>Date</h3>
-        <p>Jan. 2023</p>
-      </div>
-    </div>
+    <ProjectHeader title="SI" type="Branding" date="Jan. 2023" />
 
     <div class="project-image full-width">
       <img src="/branding/si/Product 1.JPG" alt="SI Product 1" />
