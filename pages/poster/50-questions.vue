@@ -2,10 +2,11 @@
   <div class="project-content">
     <ProjectHeader title="50 Questions" type="Poster Design" date="Nov. 2024" />
 
-     <div class="project-image full-width">
+    <div class="project-image full-width">
       <img
         src="/poster/50-questions/Question1.jpg"
         alt="50 Questions - First Image"
+        loading="lazy"
       />
     </div>
 
@@ -31,18 +32,21 @@
         <img
           src="/poster/50-questions/Question2.jpg"
           alt="50 Questions - Second Image"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/poster/50-questions/Question3.jpg"
           alt="50 Questions - Third Image"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/poster/50-questions/Question4.jpg"
           alt="50 Questions - Fourth Image"
+          loading="lazy"
         />
       </div>
     </div>

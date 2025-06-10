@@ -22,6 +22,8 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@vueuse/core": "^13.3.0",
+    "@vueuse/nuxt": "^13.3.0",
     "sass": "^1.89.1",
     "sass-loader": "^16.0.5"
   }

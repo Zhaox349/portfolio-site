@@ -6,6 +6,7 @@
       <img
         src="/typeface-design/scroll/Scrolls1.jpg"
         alt="SCROLL(S) Exhibition"
+        loading="lazy"
       />
     </div>
 
@@ -37,6 +38,7 @@
       <img
         src="/typeface-design/scroll/Scroll2.jpg"
         alt="SCROLL(S) Exhibition Display"
+        loading="lazy"
       />
     </div>
 
@@ -44,6 +46,7 @@
       <img
         src="/typeface-design/scroll/Scroll3.jpg"
         alt="SCROLL(S) Exhibition Space"
+        loading="lazy"
       />
     </div>
 
@@ -51,6 +54,7 @@
       <img
         src="/typeface-design/scroll/Scroll4.jpg"
         alt="SCROLL(S) Exhibition Installation"
+        loading="lazy"
       />
     </div>
 
@@ -83,6 +87,7 @@
       <img
         src="/typeface-design/scroll/Typeface1.png"
         alt="SCROLL(S) Typeface Design"
+        loading="lazy"
       />
     </div>
 
@@ -91,12 +96,14 @@
         <img
           src="/typeface-design/scroll/Typeface2.jpg"
           alt="SCROLL(S) Typeface Sample 1"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/typeface-design/scroll/Typeface3.jpg"
           alt="SCROLL(S) Typeface Sample 2"
+          loading="lazy"
         />
       </div>
     </div>
@@ -106,12 +113,14 @@
         <img
           src="/typeface-design/scroll/Poster1.png"
           alt="SCROLL(S) Poster 1"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/typeface-design/scroll/Poster2.png"
           alt="SCROLL(S) Poster 2"
+          loading="lazy"
         />
       </div>
     </div>

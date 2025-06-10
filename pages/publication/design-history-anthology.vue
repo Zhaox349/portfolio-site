@@ -10,6 +10,7 @@
       <img
         src="/publication/design-history-anthology/Anthology1.jpg"
         alt="Design History Anthology"
+        loading="lazy"
       />
     </div>
 
@@ -30,6 +31,7 @@
       <img
         src="/publication/design-history-anthology/Spreads1.jpg"
         alt="Design History Anthology"
+        loading="lazy"
       />
     </div>
 
@@ -55,6 +57,7 @@
       <img
         src="/publication/design-history-anthology/Spreads2.jpg"
         alt="Design History Anthology"
+        loading="lazy"
       />
     </div>
   </div>

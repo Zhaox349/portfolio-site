@@ -3,7 +3,11 @@
     <ProjectHeader title="Masonry" type="Poster Design" date="Nov. 2023" />
 
     <div class="project-image full-width">
-      <img src="/poster/masonry/Masonry1.jpg" alt="Masonry Main Image" />
+      <img
+        src="/poster/masonry/Masonry1.jpg"
+        alt="Masonry Main Image"
+        loading="lazy"
+      />
     </div>
 
     <div class="project-description">
@@ -24,16 +28,32 @@
 
     <div class="project-image-grid">
       <div class="image-container">
-        <img src="/poster/masonry/Poster0.jpg" alt="Masonry Poster 0" />
+        <img
+          src="/poster/masonry/Poster0.jpg"
+          alt="Masonry Poster 0"
+          loading="lazy"
+        />
       </div>
       <div class="image-container">
-        <img src="/poster/masonry/Poster1.jpg" alt="Masonry Poster 1" />
+        <img
+          src="/poster/masonry/Poster1.jpg"
+          alt="Masonry Poster 1"
+          loading="lazy"
+        />
       </div>
       <div class="image-container">
-        <img src="/poster/masonry/Poster2.jpg" alt="Masonry Poster 2" />
+        <img
+          src="/poster/masonry/Poster2.jpg"
+          alt="Masonry Poster 2"
+          loading="lazy"
+        />
       </div>
       <div class="image-container">
-        <img src="/poster/masonry/Poster3.jpg" alt="Masonry Poster 3" />
+        <img
+          src="/poster/masonry/Poster3.jpg"
+          alt="Masonry Poster 3"
+          loading="lazy"
+        />
       </div>
     </div>
   </div>

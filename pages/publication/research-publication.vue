@@ -10,6 +10,7 @@
       <img
         src="/publication/research-publication/Research1.jpg"
         alt="Research & Publication"
+        loading="lazy"
       />
     </div>
 
@@ -30,6 +31,7 @@
       <img
         src="/publication/research-publication/Research2.JPG"
         alt="Research & Publication"
+        loading="lazy"
       />
     </div>
 
@@ -37,6 +39,7 @@
       <img
         src="/publication/research-publication/Spread1.jpg"
         alt="Research & Publication"
+        loading="lazy"
       />
     </div>
 
@@ -44,6 +47,7 @@
       <img
         src="/publication/research-publication/Spread 2.jpg"
         alt="Research & Publication"
+        loading="lazy"
       />
     </div>
   </div>
