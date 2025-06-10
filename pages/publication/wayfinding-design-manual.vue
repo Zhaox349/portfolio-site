@@ -9,13 +9,14 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/wayfinding-design-manual/wayfinding1.jpg"
           alt="Wayfinding Design Manual"
           loading="lazy"
         />
       </div>
       <!-- <div class="image-container">
-        <img
+        <img v-fullscreen-image
           src="/publication/wayfinding-design-manual/wayfinding2.jpg"
           alt="Wayfinding Design Manual"
         />
@@ -42,6 +43,7 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/wayfinding-design-manual/Manual-01.jpg"
           alt="Wayfinding Design Manual"
           loading="lazy"
@@ -49,6 +51,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/wayfinding-design-manual/Manual-02.jpg"
           alt="Wayfinding Design Manual"
           loading="lazy"
@@ -58,6 +61,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/wayfinding-design-manual/Manual-03.jpg"
         alt="Wayfinding Design Manual"
         loading="lazy"
@@ -66,6 +70,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/wayfinding-design-manual/Manual-04.jpg"
         alt="Wayfinding Design Manual"
         loading="lazy"
@@ -75,6 +80,7 @@
     <div class="project-image-grid no-gap four-columns">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/wayfinding-design-manual/wayfinding7.jpg"
           alt="Wayfinding Design Manual"
           loading="lazy"
@@ -82,6 +88,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/wayfinding-design-manual/wayfinding8.jpg"
           alt="Wayfinding Design Manual"
           loading="lazy"
@@ -89,6 +96,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/wayfinding-design-manual/wayfinding9.jpg"
           alt="Wayfinding Design Manual"
           loading="lazy"
@@ -96,6 +104,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/wayfinding-design-manual/wayfinding10.jpg"
           alt="Wayfinding Design Manual"
           loading="lazy"

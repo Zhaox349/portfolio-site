@@ -4,6 +4,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/poster/50-questions/Question1.jpg"
         alt="50 Questions - First Image"
         loading="lazy"
@@ -30,6 +31,7 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/50-questions/Question2.jpg"
           alt="50 Questions - Second Image"
           loading="lazy"
@@ -37,6 +39,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/50-questions/Question3.jpg"
           alt="50 Questions - Third Image"
           loading="lazy"
@@ -44,6 +47,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/50-questions/Question4.jpg"
           alt="50 Questions - Fourth Image"
           loading="lazy"

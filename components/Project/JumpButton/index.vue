@@ -1,6 +1,6 @@
 <template>
   <NuxtLink class="button" :href="url" target="_blank">
-    <img src="/icon/arrow_link.png" alt="arrow_link" />
+    <img v-fullscreen-image src="/icon/arrow_link.png" alt="arrow_link" />
     <div class="text">Visit Website</div>
   </NuxtLink>
 </template>

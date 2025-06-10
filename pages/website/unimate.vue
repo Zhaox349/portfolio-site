@@ -8,6 +8,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/unimate/UniMate1.jpg"
         alt="UniMate Platform"
         loading="lazy"
@@ -37,6 +38,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/unimate/UniMate2.png"
         alt="UniMate Design"
         loading="lazy"
@@ -45,6 +47,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/unimate/UniMate3.jpg"
         alt="UniMate Interface"
         loading="lazy"
@@ -53,6 +56,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/unimate/Poster-01.jpg"
         alt="UniMate Poster"
         loading="lazy"
@@ -61,6 +65,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/unimate/Poster-02.jpg"
         alt="UniMate Poster"
         loading="lazy"
@@ -118,6 +123,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/unimate/UniMate4.jpg"
         alt="UniMate Platform Features"
         loading="lazy"
@@ -144,6 +150,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/unimate/UniMate8.png"
         alt="UniMate Recognition Program"
         loading="lazy"
@@ -152,6 +159,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/unimate/UniMate9.png"
         alt="UniMate Platform Interface"
         loading="lazy"

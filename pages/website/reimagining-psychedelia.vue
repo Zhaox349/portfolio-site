@@ -8,6 +8,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/Iteration/Iteration1.jpg"
         alt="Iteration Project - First Image"
         loading="lazy"
@@ -36,6 +37,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/Iteration/Iteration 2.jpg"
         alt="Iteration Project - Second Image"
         loading="lazy"

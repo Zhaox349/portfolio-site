@@ -3,7 +3,11 @@
     <ProjectHeader title="SI" type="Branding" date="Jan. 2023" />
 
     <div class="project-image full-width">
-      <img src="/branding/si/Product 1.JPG" alt="SI Product 1" />
+      <img
+        v-fullscreen-image
+        src="/branding/si/Product 1.JPG"
+        alt="SI Product 1"
+      />
     </div>
 
     <div class="project-description">
@@ -21,24 +25,40 @@
     </div>
 
     <div class="project-image full-width">
-      <img src="/branding/si/Overview.jpg" alt="SI Overview" />
+      <img
+        v-fullscreen-image
+        src="/branding/si/Overview.jpg"
+        alt="SI Overview"
+      />
     </div>
 
     <div class="project-image full-width">
-      <img src="/branding/si/Product 2.JPG" alt="SI Product 2" />
+      <img
+        v-fullscreen-image
+        src="/branding/si/Product 2.JPG"
+        alt="SI Product 2"
+      />
     </div>
 
     <div class="project-image-row">
       <div class="image-container">
-        <img src="/branding/si/Product 3.JPG" alt="SI Product 3" />
+        <img
+          v-fullscreen-image
+          src="/branding/si/Product 3.JPG"
+          alt="SI Product 3"
+        />
       </div>
       <div class="image-container">
-        <img src="/branding/si/Product 4.JPG" alt="SI Product 4" />
+        <img
+          v-fullscreen-image
+          src="/branding/si/Product 4.JPG"
+          alt="SI Product 4"
+        />
       </div>
     </div>
 
     <div class="project-image full-width">
-      <img src="/branding/si/SI4.jpg" alt="SI Design 4" />
+      <img v-fullscreen-image src="/branding/si/SI4.jpg" alt="SI Design 4" />
     </div>
 
     <div class="project-description">
@@ -60,11 +80,11 @@
     </div>
 
     <div class="project-image full-width">
-      <img src="/branding/si/SI5.jpg" alt="SI Design 5" />
+      <img v-fullscreen-image src="/branding/si/SI5.jpg" alt="SI Design 5" />
     </div>
 
     <div class="project-image full-width">
-      <img src="/branding/si/SI6.jpg" alt="SI Design 6" />
+      <img v-fullscreen-image src="/branding/si/SI6.jpg" alt="SI Design 6" />
     </div>
   </div>
 </template>

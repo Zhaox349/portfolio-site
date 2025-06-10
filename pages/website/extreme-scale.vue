@@ -8,6 +8,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/extreme-scale/Extreme1.jpg"
         alt="Extreme Scale"
         loading="lazy"
@@ -48,6 +49,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/extreme-scale/Extreme2.png"
         alt="Extreme Scale Design"
         loading="lazy"
@@ -56,6 +58,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/extreme-scale/Extreme3.png"
         alt="Extreme Scale Design"
         loading="lazy"
@@ -70,6 +73,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/website/extreme-scale/Extreme4.png"
         alt="Extreme Scale Design"
         loading="lazy"
