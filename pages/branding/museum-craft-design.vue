@@ -114,7 +114,7 @@
 
 .project-description {
   margin: variable.$spacing-lg 0;
-  max-width: 800px;
+  max-width: 100%;
 
   p {
     margin-bottom: variable.$spacing-md;
