@@ -61,7 +61,7 @@ defineProps({
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-size: 0.9rem;
+    font-size: 13px;
     height: 44px;
     position: relative;
     &::after {
@@ -104,12 +104,24 @@ defineProps({
 
 @include mixins.respond-to(medium) {
   .project-header {
+    padding-bottom: 35px;
     .meta-info {
       flex-direction: column;
       width: 100%;
+      gap: 10px;
+      padding: 10px 0;
       .type,
       .date {
         width: 100%;
+      }
+      &::after {
+        position: absolute;
+        content: " ";
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        bottom: -40px;
+        left: 0;
       }
     }
   }
