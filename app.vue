@@ -32,8 +32,10 @@ const exitFullscreen = () => {
 onMounted(() => {
   const images = document.querySelectorAll("img:not(.fullscreen-image img)");
   images.forEach((img) => {
-    const className = img.classList.join(" ");
-    if (className.includes("page-")) return;
+    if (img && img.classList && img.classList.length > 0) {
+      const className = img.classList[0];
+      if (className.includes("page-") || className.includes("-arrow")) return;
+    }
     img.addEventListener("click", () => enterFullscreen(img.src, img.alt));
   });
 });
