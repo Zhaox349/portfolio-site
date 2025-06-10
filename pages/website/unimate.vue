@@ -240,9 +240,7 @@
   margin: variable.$spacing-lg 0;
 
   &.full-width {
-    margin-left: calc(-1 * variable.$spacing-md);
-    margin-right: calc(-1 * variable.$spacing-md);
-    width: calc(100% + 2 * variable.$spacing-md);
+    width: 100%;
   }
 
   img,
