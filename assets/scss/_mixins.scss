@@ -125,7 +125,7 @@
   display: grid;
   grid-template-columns: $columns;
   gap: $gap;
-  
+
   @include respond-to(small) {
     grid-template-columns: 1fr;
     gap: variable.$spacing-sm;

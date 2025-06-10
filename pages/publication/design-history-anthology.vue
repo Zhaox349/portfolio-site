@@ -8,6 +8,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/design-history-anthology/Anthology1.jpg"
         alt="Design History Anthology"
         loading="lazy"
@@ -29,6 +30,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/design-history-anthology/Spreads1.jpg"
         alt="Design History Anthology"
         loading="lazy"
@@ -55,6 +57,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/design-history-anthology/Spreads2.jpg"
         alt="Design History Anthology"
         loading="lazy"

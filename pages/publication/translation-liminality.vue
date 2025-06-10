@@ -9,6 +9,7 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality1.jpg"
           alt="Liminality"
           loading="lazy"
@@ -16,6 +17,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality2.jpg"
           alt="Liminality"
           loading="lazy"
@@ -51,24 +53,28 @@
     <div class="project-image-grid">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality3.jpg"
           alt="Liminality"
         />
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality4.jpg"
           alt="Liminality"
         />
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality5.jpg"
           alt="Liminality"
         />
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality6.jpg"
           alt="Liminality"
         />
@@ -92,6 +98,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/translation-liminality/Liminality7.jpg"
         alt="Liminality"
         loading="lazy"
@@ -119,6 +126,7 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality8.JPG"
           alt="Liminality"
           loading="lazy"
@@ -126,6 +134,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality9.jpg"
           alt="Liminality"
           loading="lazy"
@@ -136,6 +145,7 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality10.jpg"
           alt="Liminality"
           loading="lazy"
@@ -143,6 +153,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/translation-liminality/Liminality11.jpg"
           alt="Liminality"
           loading="lazy"
@@ -152,6 +163,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/translation-liminality/Liminality12.jpg"
         alt="Liminality"
         loading="lazy"
@@ -160,6 +172,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/translation-liminality/Liminality13.jpg"
         alt="Liminality"
         loading="lazy"

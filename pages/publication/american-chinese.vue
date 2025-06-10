@@ -8,6 +8,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/american-chinese/Restaurant1.jpg"
         alt="American Chinese Restaurant"
         loading="lazy"
@@ -17,6 +18,7 @@
     <div class="project-section intro-section">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant2.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -41,6 +43,7 @@
     <div class="project-image-row" style="margin-bottom: 20px">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant3.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -48,6 +51,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant4.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -58,6 +62,7 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant7.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -65,6 +70,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant11.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -75,6 +81,7 @@
     <div class="project-image-row three-images">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant5.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -82,6 +89,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant6.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -89,6 +97,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant8.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -99,6 +108,7 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant9.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -106,6 +116,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/Restaurant10.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
@@ -127,6 +138,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/american-chinese/Restaurant12.jpg"
         alt="American Chinese Restaurant"
         loading="lazy"
@@ -1088,6 +1100,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/publication/american-chinese/map13.jpg"
         alt="Chinatown Map"
         loading="lazy"
@@ -1097,6 +1110,7 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/map14.jpg"
           alt="Chinatown Map"
           loading="lazy"
@@ -1104,6 +1118,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/map15.jpeg"
           alt="Chinatown Map"
           loading="lazy"
@@ -1114,6 +1129,7 @@
     <div class="project-image-row no-gap">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/map16.jpg"
           alt="Chinatown Map"
           loading="lazy"
@@ -1121,6 +1137,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/publication/american-chinese/map17.jpg"
           alt="Chinatown Map"
           loading="lazy"

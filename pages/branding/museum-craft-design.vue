@@ -8,6 +8,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/branding/museum-craft-design/Museum1.jpg"
         alt="Museum of Craft & Design"
       />
@@ -34,6 +35,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/branding/museum-craft-design/Museum2.jpg"
         alt="Museum of Craft & Design"
       />
@@ -41,6 +43,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/branding/museum-craft-design/Museum3.jpg"
         alt="Museum of Craft & Design"
       />
@@ -48,6 +51,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/branding/museum-craft-design/Museum4.jpg"
         alt="Museum of Craft & Design"
       />
@@ -55,6 +59,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/branding/museum-craft-design/Museum5.jpg"
         alt="Museum of Craft & Design"
       />
@@ -62,6 +67,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/branding/museum-craft-design/Museum6.jpg"
         alt="Museum of Craft & Design"
       />
@@ -69,6 +75,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/branding/museum-craft-design/Museum7.jpeg"
         alt="Museum of Craft & Design"
       />
@@ -76,6 +83,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/branding/museum-craft-design/Museum8.jpeg"
         alt="Museum of Craft & Design"
       />

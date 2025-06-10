@@ -5,7 +5,7 @@
     </div>
     <div class="about-content">
       <div class="about-image">
-        <img src="/about-me/me.jpg" alt="Chichi Zhao" />
+        <img v-fullscreen-image src="/about-me/me.jpg" alt="Chichi Zhao" />
 
         <div class="download-list">
           <ProjectDownloadButton

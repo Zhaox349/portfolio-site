@@ -1,6 +1,6 @@
 <template>
   <a class="button" :href="url" download>
-    <img src="/icon/arrow_download.png" alt="arrow_link" />
+    <img v-fullscreen-image src="/icon/arrow_download.png" alt="arrow_link" />
     <div class="text">{{ text }}</div>
   </a>
 </template>

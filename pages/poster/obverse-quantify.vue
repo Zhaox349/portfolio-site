@@ -9,6 +9,7 @@
     <div class="project-image-row no-gap">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/obverse-quantify/SoftLight.jpg"
           alt="Soft Light Image"
           loading="lazy"
@@ -16,6 +17,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/obverse-quantify/PinLight.jpg"
           alt="Pin Light Image"
           loading="lazy"
@@ -23,6 +25,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/obverse-quantify/Darken.jpg"
           alt="Darken Image"
           loading="lazy"
@@ -50,6 +53,7 @@
     <div class="project-image-row with-gap">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/obverse-quantify/Misshot1.jpg"
           alt="Misshot HDR Firework Image 1"
           loading="lazy"
@@ -57,6 +61,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/obverse-quantify/Misshot2.jpg"
           alt="Misshot HDR Firework Image 2"
           loading="lazy"
@@ -69,6 +74,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/poster/obverse-quantify/Misshot3.jpg"
         alt="Misshot HDR Firework Image 3"
         loading="lazy"
@@ -77,6 +83,7 @@
 
     <div class="project-image full-width">
       <img
+        v-fullscreen-image
         src="/poster/obverse-quantify/observe.jpg"
         alt="Observe & Quantify Main Poster"
         loading="lazy"
@@ -89,6 +96,7 @@
     <div class="project-image-row with-gap-3">
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/obverse-quantify/riso1.jpg"
           alt="Risograph Print 1"
           loading="lazy"
@@ -96,6 +104,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/obverse-quantify/riso2.jpg"
           alt="Risograph Print 2"
           loading="lazy"
@@ -103,6 +112,7 @@
       </div>
       <div class="image-container">
         <img
+          v-fullscreen-image
           src="/poster/obverse-quantify/riso3.jpg"
           alt="Risograph Print 3"
           loading="lazy"
