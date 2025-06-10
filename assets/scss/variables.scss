@@ -1,3 +1,4 @@
+// 颜色
 $primary-color: #5cff85;
 $secondary-color: #038c25;
 $text-color: #333;
@@ -6,18 +7,39 @@ $white: #fff;
 $light-gray: #eaeaea;
 $medium-gray: #f0f4f6;
 
+// 布局
 $menu-height: 40px;
 $nav-spacing: 39px;
 $sidebar-width: 30%;
 
-$mobile-breakpoint: 768px;
+// 响应式断点
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xlarge: 1200px;
+$mobile-breakpoint: $breakpoint-medium;
 
+// 移动端安全区域
+$safe-area-top: env(safe-area-inset-top);
+$safe-area-bottom: env(safe-area-inset-bottom);
+$safe-area-left: env(safe-area-inset-left);
+$safe-area-right: env(safe-area-inset-right);
+
+// 间距
 $spacing-xs: 5px;
 $spacing-sm: 10px;
 $spacing-md: 20px;
 $spacing-lg: 30px;
 $spacing-xl: 31px;
 
+// 移动端特定间距
+$mobile-spacing-xs: 4px;
+$mobile-spacing-sm: 8px;
+$mobile-spacing-md: 16px;
+$mobile-spacing-lg: 24px;
+$mobile-spacing-xl: 28px;
+
+// 字体大小
 $font-size-xs: 0.687rem;
 $font-size-sm: 0.875rem;
 $font-size-base: 1rem;
@@ -26,10 +48,44 @@ $font-size-lg: 1.9375rem;
 $font-size-xl: 2rem;
 $font-size-xxl: 2.5rem;
 
+// 移动端字体大小
+$mobile-font-size-xs: 0.625rem;
+$mobile-font-size-sm: 0.75rem;
+$mobile-font-size-base: 0.875rem;
+$mobile-font-size-md: 1.25rem;
+$mobile-font-size-lg: 1.5rem;
+$mobile-font-size-xl: 1.75rem;
+$mobile-font-size-xxl: 2rem;
+
+// 字重
 $font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 600;
 
+// 动画
 $transition-speed: 0.2s;
+$transition-speed-fast: 0.15s;
+$transition-speed-slow: 0.3s;
 
+// 圆角
+$border-radius-sm: 3px;
+$border-radius-md: 4px;
 $border-radius-lg: 5px;
+
+// 移动端触摸区域
+$touch-target-size: 44px;
+$touch-target-padding: $spacing-sm;
+
+// 性能优化
+$animation-threshold: 0.001;
+$scroll-threshold: 50;
+$lazy-load-threshold: 100px;
+
+// Z-index 层级
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;

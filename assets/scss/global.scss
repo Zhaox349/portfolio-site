@@ -6,11 +6,23 @@
   box-sizing: border-box;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     sans-serif;
+  -webkit-tap-highlight-color: transparent; // 移除移动端点击高亮
+  touch-action: manipulation; // 优化触摸事件
+}
+
+html {
+  font-size: 16px; // 基准字体大小
+  @include mixins.respond-to(small) {
+    font-size: 14px; // 移动端字体稍微缩小
+  }
 }
 
 body {
   background-color: variable.$bg-color;
   color: variable.$text-color;
+  overflow-x: hidden; // 防止水平滚动
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .project-content {
@@ -18,6 +30,10 @@ body {
     font-size: variable.$font-size-xxl;
     margin-bottom: variable.$spacing-md;
     color: variable.$text-color;
+    @include mixins.respond-to(small) {
+      font-size: variable.$font-size-xl;
+      margin-bottom: variable.$spacing-sm;
+    }
   }
 }
 
@@ -28,16 +44,24 @@ body {
 
   p {
     margin-bottom: variable.$spacing-md;
+    @include mixins.respond-to(small) {
+      margin-bottom: variable.$spacing-sm;
+    }
   }
 }
 
 .project-image {
   max-width: 100%;
   margin-top: variable.$spacing-md;
+  @include mixins.respond-to(small) {
+    margin-top: variable.$spacing-sm;
+  }
 
   img {
     max-width: 100%;
     height: auto;
+    display: block; // 消除图片底部间隙
+    will-change: transform; // 优化滚动性能
   }
 }
 
@@ -45,6 +69,10 @@ body {
   h1 {
     font-size: variable.$font-size-xxl;
     margin-bottom: variable.$spacing-lg;
+    @include mixins.respond-to(small) {
+      font-size: variable.$font-size-xl;
+      margin-bottom: variable.$spacing-md;
+    }
   }
 }
 
@@ -54,6 +82,11 @@ body {
     variable.$spacing-lg
   );
 
+  @include mixins.respond-to(small) {
+    @include mixins.grid(1fr, variable.$spacing-md);
+    padding: 0 variable.$spacing-sm;
+  }
+
   .project-card {
     background-color: variable.$white;
     border-radius: 8px;
@@ -61,10 +94,22 @@ body {
     text-decoration: none;
     color: variable.$text-color;
     @include mixins.transition(transform, box-shadow);
+    will-change: transform; // 优化动画性能
 
-    &:hover {
-      transform: translateY(-5px);
-      @include mixins.shadow(medium);
+    @include mixins.respond-to(small) {
+      padding: variable.$spacing-sm;
+      border-radius: 6px;
+    }
+
+    &:active {
+      transform: scale(0.98); // 移动端点击反馈
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        transform: translateY(-5px);
+        @include mixins.shadow(medium);
+      }
     }
 
     .project-number {
@@ -76,25 +121,34 @@ body {
     h2 {
       font-size: variable.$font-size-lg;
       margin-bottom: variable.$spacing-md;
+      @include mixins.respond-to(small) {
+        font-size: variable.$font-size-md;
+        margin-bottom: variable.$spacing-sm;
+      }
     }
 
     .project-thumbnail {
       img {
         width: 100%;
         height: auto;
+        display: block;
+        will-change: transform;
       }
     }
   }
 }
 
-@include mixins.respond-to(medium) {
-  .project-content {
-    h1 {
-      font-size: variable.$font-size-xl;
-    }
-  }
+// 添加滚动平滑效果
+.smooth-scroll {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
 
-  .projects-grid {
-    @include mixins.grid(1fr, variable.$spacing-md);
+// 优化移动端表单元素
+input,
+textarea,
+select {
+  @include mixins.respond-to(small) {
+    font-size: 16px; // 防止iOS自动缩放
   }
 }

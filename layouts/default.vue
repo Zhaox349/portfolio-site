@@ -255,6 +255,8 @@ const isActiveProject = (categoryId, projectId) => {
             margin-bottom: variable.$spacing-sm;
             height: 48px;
             padding: 1px 14px;
+            display: flex;
+            align-items: center;
             cursor: pointer;
             @include mixins.transition(color);
             font-size: variable.$font-size-md;

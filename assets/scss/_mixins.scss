@@ -29,6 +29,7 @@
   left: $left;
 }
 
+// 响应式断点优化
 @mixin respond-to($breakpoint) {
   @if $breakpoint == "small" {
     @media (max-width: 576px) {
@@ -46,6 +47,31 @@
     @media (max-width: 1200px) {
       @content;
     }
+  }
+}
+
+// 移动端触摸反馈
+@mixin touch-feedback {
+  @include respond-to(small) {
+    &:active {
+      transform: scale(0.98);
+      transition: transform 0.2s;
+    }
+  }
+}
+
+// 移动端性能优化
+@mixin optimize-performance {
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-font-smoothing: antialiased;
+}
+
+// 移动端安全区域
+@mixin safe-area-insets($position: bottom) {
+  @supports (padding-#{$position}: env(safe-area-inset-#{$position})) {
+    padding-#{$position}: env(safe-area-inset-#{$position});
   }
 }
 
@@ -94,10 +120,32 @@
   transition-timing-function: $timing;
 }
 
+// 移动端网格布局优化
 @mixin grid($columns: 1fr, $gap: variable.$spacing-md) {
   display: grid;
   grid-template-columns: $columns;
   gap: $gap;
+  
+  @include respond-to(small) {
+    grid-template-columns: 1fr;
+    gap: variable.$spacing-sm;
+  }
+}
+
+// 移动端点击区域优化
+@mixin touch-target {
+  @include respond-to(small) {
+    min-height: 44px;
+    min-width: 44px;
+    padding: variable.$spacing-sm;
+  }
+}
+
+// 移动端滚动优化
+@mixin smooth-scroll {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
 }
 
 @mixin darken($color, $amount: 10%) {

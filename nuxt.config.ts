@@ -2,9 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
-
+  ssr: true,
   app: {
     head: {
+      viewport:
+        "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
       script: [
         {
           src: "/publication/american-chinese/js/jquery.min.1.7.js",
@@ -76,5 +78,41 @@ export default defineNuxtConfig({
         },
       },
     },
+
+    build: {
+      // 移动端性能优化
+      cssMinify: "lightningcss",
+      minify: "terser",
+      ssrManifest: true,
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            vendor: ["vue", "vue-router"],
+          },
+        },
+      },
+    },
+  },
+
+  // 移动端性能优化
+  nitro: {
+    minify: true,
+    compressPublicAssets: {
+      brotli: true,
+      gzip: true,
+    },
+    prerender: {
+      concurrency: 12,
+    },
+  },
+
+  experimental: {
+    // 启用移动端手势优化
+    viewTransition: true,
+    renderJsonPayloads: true,
+  },
+
+  webpack: {
+    extractCSS: true,
   },
 });
