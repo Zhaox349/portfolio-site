@@ -27,7 +27,7 @@ function updateDepth(book, newPage) {
 function loadPage(page) {
   setTimeout(() => {
     $(".sj-book .p" + page).html(
-      `<img src='pics/Process${page}.jpg' style="width: 100%; height: 100%;"></img>`
+      `<img src='/publication/american-chinese/pics/Process${page}.jpg' class='page-${page}' width='100%' height='100%'></img>`
     );
   }, 10);
 }
