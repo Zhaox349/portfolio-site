@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Galaksinos Slant";
-  src: url(../assets/GalaksinosSlant-1GO5M.ttf);
+  src: url(./GalaksinosSlant-1GO5M.ttf);
 }
 @font-face {
   font-family: "Polesitter";
-  src: url(../assets/Polesitter-ZV11J.otf);
+  src: url(./Polesitter-ZV11J.otf);
 }
 
 .header {

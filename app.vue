@@ -10,31 +10,33 @@
 </template>
 
 <script setup>
-const isFullscreen = ref(false)
-const fullscreenImageSrc = ref('')
-const fullscreenImageAlt = ref('')
+const isFullscreen = ref(false);
+const fullscreenImageSrc = ref("");
+const fullscreenImageAlt = ref("");
 
 // 进入全屏显示
 const enterFullscreen = (src, alt) => {
-  fullscreenImageSrc.value = src
-  fullscreenImageAlt.value = alt
-  isFullscreen.value = true
-  document.body.style.overflow = 'hidden'
-}
+  fullscreenImageSrc.value = src;
+  fullscreenImageAlt.value = alt;
+  isFullscreen.value = true;
+  document.body.style.overflow = "hidden";
+};
 
 // 退出全屏显示
 const exitFullscreen = () => {
-  isFullscreen.value = false
-  document.body.style.overflow = ''
-}
+  isFullscreen.value = false;
+  document.body.style.overflow = "";
+};
 
 // 全局事件处理
 onMounted(() => {
-  const images = document.querySelectorAll('img:not(.fullscreen-image img)')
-  images.forEach(img => {
-    img.addEventListener('click', () => enterFullscreen(img.src, img.alt))
-  })
-})
+  const images = document.querySelectorAll("img:not(.fullscreen-image img)");
+  images.forEach((img) => {
+    const className = img.classList.join(" ");
+    if (className.includes("page-")) return;
+    img.addEventListener("click", () => enterFullscreen(img.src, img.alt));
+  });
+});
 </script>
 
 <style lang="scss">

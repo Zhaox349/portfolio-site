@@ -1141,7 +1141,7 @@ useHead(() => ({
       src: "/publication/american-chinese/js/1.js",
     },
   ],
-  style: [
+  link: [
     {
       rel: "stylesheet",
       href: "/publication/american-chinese/css/normalize.min.css",
