@@ -10,6 +10,7 @@
       <img
         src="/publication/american-chinese/Restaurant1.jpg"
         alt="American Chinese Restaurant"
+        loading="lazy"
       />
     </div>
 
@@ -18,6 +19,7 @@
         <img
           src="/publication/american-chinese/Restaurant2.JPG"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
       <div class="text-container">
@@ -41,12 +43,14 @@
         <img
           src="/publication/american-chinese/Restaurant3.jpg"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/american-chinese/Restaurant4.jpg"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
     </div>
@@ -56,12 +60,14 @@
         <img
           src="/publication/american-chinese/Restaurant7.JPG"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/american-chinese/Restaurant11.JPG"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
     </div>
@@ -71,18 +77,21 @@
         <img
           src="/publication/american-chinese/Restaurant5.JPG"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/american-chinese/Restaurant6.JPG"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/american-chinese/Restaurant8.JPG"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
     </div>
@@ -92,12 +101,14 @@
         <img
           src="/publication/american-chinese/Restaurant9.JPG"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/american-chinese/Restaurant10.JPG"
           alt="American Chinese Restaurant"
+          loading="lazy"
         />
       </div>
     </div>
@@ -118,6 +129,7 @@
       <img
         src="/publication/american-chinese/Restaurant12.jpg"
         alt="American Chinese Restaurant"
+        loading="lazy"
       />
     </div>
 
@@ -1075,7 +1087,11 @@
     </div>
 
     <div class="project-image full-width">
-      <img src="/publication/american-chinese/map13.jpg" alt="Chinatown Map" />
+      <img
+        src="/publication/american-chinese/map13.jpg"
+        alt="Chinatown Map"
+        loading="lazy"
+      />
     </div>
 
     <div class="project-image-row">
@@ -1083,12 +1099,14 @@
         <img
           src="/publication/american-chinese/map14.jpg"
           alt="Chinatown Map"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/american-chinese/map15.jpeg"
           alt="Chinatown Map"
+          loading="lazy"
         />
       </div>
     </div>
@@ -1098,12 +1116,14 @@
         <img
           src="/publication/american-chinese/map16.jpg"
           alt="Chinatown Map"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/american-chinese/map17.jpg"
           alt="Chinatown Map"
+          loading="lazy"
         />
       </div>
     </div>

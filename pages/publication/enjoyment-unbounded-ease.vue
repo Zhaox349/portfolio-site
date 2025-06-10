@@ -10,6 +10,7 @@
       <img
         src="/publication/enjoyment-in-unbounded-ease/Enjoyment1.jpg"
         alt="Enjoyment in Unbounded Ease"
+        loading="lazy"
       />
     </div>
 
@@ -27,6 +28,7 @@
       <img
         src="/publication/enjoyment-in-unbounded-ease/Spread1.jpg"
         alt="Enjoyment in Unbounded Ease"
+        loading="lazy"
       />
     </div>
 
@@ -52,6 +54,7 @@
       <img
         src="/publication/enjoyment-in-unbounded-ease/Enjoyment6.jpg"
         alt="Enjoyment in Unbounded Ease"
+        loading="lazy"
       />
     </div>
 
@@ -60,12 +63,14 @@
         <img
           src="/publication/enjoyment-in-unbounded-ease/Enjoyment7.jpg"
           alt="Enjoyment in Unbounded Ease"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/enjoyment-in-unbounded-ease/Enjoyment8.jpg"
           alt="Enjoyment in Unbounded Ease"
+          loading="lazy"
         />
       </div>
     </div>
@@ -74,6 +79,7 @@
       <img
         src="/publication/enjoyment-in-unbounded-ease/Enjoyment10.jpg"
         alt="Enjoyment in Unbounded Ease"
+        loading="lazy"
       />
     </div>
 
@@ -81,6 +87,7 @@
       <img
         src="/publication/enjoyment-in-unbounded-ease/Enjoyment11.jpg"
         alt="Enjoyment in Unbounded Ease"
+        loading="lazy"
       />
     </div>
   </div>

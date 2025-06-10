@@ -6,6 +6,7 @@
       <img
         src="/typeface-design/resilience/Resilience1.jpg"
         alt="Resilience Typeface Design"
+        loading="lazy"
       />
     </div>
 
@@ -24,6 +25,7 @@
       <img
         src="/typeface-design/resilience/Resilience2.jpg"
         alt="Resilience Typeface Experiment"
+        loading="lazy"
       />
     </div>
 
@@ -31,6 +33,7 @@
       <img
         src="/typeface-design/resilience/Resilience3.jpg"
         alt="Resilience Type Forms"
+        loading="lazy"
       />
     </div>
 
@@ -38,6 +41,7 @@
       <img
         src="/typeface-design/resilience/Resilience4.jpg"
         alt="Resilience Final Design"
+        loading="lazy"
       />
     </div>
   </div>

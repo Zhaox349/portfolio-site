@@ -37,8 +37,7 @@ defineProps({
 
 <style lang="scss" scoped>
 .project-header {
-  margin-bottom: 2rem;
-
+  padding-bottom: 1rem;
   h1 {
     color: #000;
     font-family: "Neue Haas Grotesk Display Pro";
@@ -53,12 +52,13 @@ defineProps({
       width: 100%;
       height: 2px;
       background-color: #000;
-      bottom: 0;
+      bottom: -10px;
       left: 0;
     }
   }
 
   .meta-info {
+    padding-top: 10px;
     display: flex;
     align-items: center;
     gap: 1rem;

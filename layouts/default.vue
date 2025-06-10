@@ -65,7 +65,7 @@
       </aside>
 
       <!-- Right Content Area -->
-      <main class="content-area">
+      <main ref="contentAreaRef" class="content-area">
         <slot />
       </main>
     </div>
@@ -84,6 +84,7 @@ const { $layoutData } = useNuxtApp();
 const portfolioData = $layoutData.portfolioData;
 
 const directoryRef = ref(null);
+const contentAreaRef = ref(null);
 
 // 导航函数
 const navigateToProject = (categoryId, projectId, id) => {
@@ -91,9 +92,13 @@ const navigateToProject = (categoryId, projectId, id) => {
   isMenuOpen.value = false;
 
   const projectItem = document.getElementById(id);
-  console.dir(projectItem);
   directoryRef.value.scrollTo({
     top: projectItem.offsetTop - 50,
+    behavior: "smooth",
+  });
+
+  contentAreaRef.value.scrollTo({
+    top: 0,
     behavior: "smooth",
   });
 };

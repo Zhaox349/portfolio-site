@@ -7,7 +7,11 @@
     />
 
     <div class="project-image full-width">
-      <img src="/website/extreme-scale/Extreme1.jpg" alt="Extreme Scale" />
+      <img
+        src="/website/extreme-scale/Extreme1.jpg"
+        alt="Extreme Scale"
+        loading="lazy"
+      />
     </div>
 
     <div class="project-description">
@@ -46,6 +50,7 @@
       <img
         src="/website/extreme-scale/Extreme2.png"
         alt="Extreme Scale Design"
+        loading="lazy"
       />
     </div>
 
@@ -53,6 +58,7 @@
       <img
         src="/website/extreme-scale/Extreme3.png"
         alt="Extreme Scale Design"
+        loading="lazy"
       />
     </div>
 
@@ -66,6 +72,7 @@
       <img
         src="/website/extreme-scale/Extreme4.png"
         alt="Extreme Scale Design"
+        loading="lazy"
       />
     </div>
   </div>

@@ -10,6 +10,7 @@
       <img
         src="/website/Iteration/Iteration1.jpg"
         alt="Iteration Project - First Image"
+        loading="lazy"
       />
     </div>
 
@@ -37,6 +38,7 @@
       <img
         src="/website/Iteration/Iteration 2.jpg"
         alt="Iteration Project - Second Image"
+        loading="lazy"
       />
     </div>
 

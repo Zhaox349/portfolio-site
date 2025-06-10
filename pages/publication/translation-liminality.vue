@@ -11,12 +11,14 @@
         <img
           src="/publication/translation-liminality/Liminality1.jpg"
           alt="Liminality"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality2.jpg"
           alt="Liminality"
+          loading="lazy"
         />
       </div>
     </div>
@@ -92,6 +94,7 @@
       <img
         src="/publication/translation-liminality/Liminality7.jpg"
         alt="Liminality"
+        loading="lazy"
       />
     </div>
 
@@ -118,12 +121,14 @@
         <img
           src="/publication/translation-liminality/Liminality8.JPG"
           alt="Liminality"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality9.jpg"
           alt="Liminality"
+          loading="lazy"
         />
       </div>
     </div>
@@ -133,12 +138,14 @@
         <img
           src="/publication/translation-liminality/Liminality10.jpg"
           alt="Liminality"
+          loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
           src="/publication/translation-liminality/Liminality11.jpg"
           alt="Liminality"
+          loading="lazy"
         />
       </div>
     </div>
@@ -147,6 +154,7 @@
       <img
         src="/publication/translation-liminality/Liminality12.jpg"
         alt="Liminality"
+        loading="lazy"
       />
     </div>
 
@@ -154,6 +162,7 @@
       <img
         src="/publication/translation-liminality/Liminality13.jpg"
         alt="Liminality"
+        loading="lazy"
       />
     </div>
   </div>
