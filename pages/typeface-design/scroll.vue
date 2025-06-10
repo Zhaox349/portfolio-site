@@ -159,12 +159,8 @@
     <div class="project-description">
       <p>
         Website coded by professor Halim Lee<br />
-        <a
-          href="https://bu-gd.github.io/scrolls"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Visit the website here</a
-        >
+
+        <ProjectJumpButton url="https://bu-gd.github.io/scrolls" />
       </p>
     </div>
 
@@ -226,16 +222,6 @@
   p {
     margin-bottom: variable.$spacing-md;
     line-height: 1.6;
-  }
-
-  a {
-    color: variable.$text-color;
-    text-decoration: underline;
-    @include mixins.transition(color);
-
-    &:hover {
-      color: variable.$primary-color;
-    }
   }
 }
 
