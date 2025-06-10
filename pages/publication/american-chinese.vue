@@ -17,7 +17,7 @@
     <div class="project-section intro-section">
       <div class="image-container">
         <img
-          src="/publication/american-chinese/Restaurant2.JPG"
+          src="/publication/american-chinese/Restaurant2.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
         />
@@ -58,14 +58,14 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
-          src="/publication/american-chinese/Restaurant7.JPG"
+          src="/publication/american-chinese/Restaurant7.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
-          src="/publication/american-chinese/Restaurant11.JPG"
+          src="/publication/american-chinese/Restaurant11.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
         />
@@ -75,21 +75,21 @@
     <div class="project-image-row three-images">
       <div class="image-container">
         <img
-          src="/publication/american-chinese/Restaurant5.JPG"
+          src="/publication/american-chinese/Restaurant5.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
-          src="/publication/american-chinese/Restaurant6.JPG"
+          src="/publication/american-chinese/Restaurant6.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
-          src="/publication/american-chinese/Restaurant8.JPG"
+          src="/publication/american-chinese/Restaurant8.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
         />
@@ -99,14 +99,14 @@
     <div class="project-image-row">
       <div class="image-container">
         <img
-          src="/publication/american-chinese/Restaurant9.JPG"
+          src="/publication/american-chinese/Restaurant9.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
         />
       </div>
       <div class="image-container">
         <img
-          src="/publication/american-chinese/Restaurant10.JPG"
+          src="/publication/american-chinese/Restaurant10.jpg"
           alt="American Chinese Restaurant"
           loading="lazy"
         />

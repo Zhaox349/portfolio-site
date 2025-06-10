@@ -37,32 +37,32 @@ defineProps({
 
 <style lang="scss" scoped>
 .project-header {
-  padding-bottom: 1rem;
   h1 {
+    margin: 0 0;
     color: #000;
-    font-family: "Neue Haas Grotesk Display Pro";
     font-size: 3.4375rem;
+    line-height: 3.4375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
     position: relative;
+    padding-bottom: 27px;
     &::after {
       position: absolute;
       content: " ";
       width: 100%;
       height: 2px;
       background-color: #000;
-      bottom: -10px;
+      bottom: 0px;
       left: 0;
     }
   }
 
   .meta-info {
-    padding-top: 10px;
     display: flex;
     align-items: center;
     gap: 1rem;
     font-size: 0.9rem;
+    height: 44px;
     position: relative;
     &::after {
       position: absolute;
@@ -70,7 +70,7 @@ defineProps({
       width: 100%;
       height: 2px;
       background-color: #000;
-      bottom: -20px;
+      bottom: -2px;
       left: 0;
     }
 
